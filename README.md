@@ -15,4 +15,27 @@ Distribution of the work:
 
 -ALI:
 
-EQUIPMENT: 
+EQUIPMENT:
+- Murata CMWX1ZZABZLoRa Module:
+	Datasheet:https://wireless.murata.com/datasheet?/RFM/data/type_abz.pdf
+	- STM32F0x2:
+		Documentation (Full information about micro): https://www.ece.uvic.ca/~ece355/lab/supplement/stm32f0RefManual.pdf
+		With rust: https://docs.rs/stm32f0x2/0.1.0/stm32f0x2/
+
+- Oled Display: SSD1306. 
+	Datasheet: https://buildmedia.readthedocs.org/media/pdf/ssd1306/latest/ssd1306.pdf
+	Website to order: https://cdon.se/hem-tradgard/oled-display-0-96-tum-med-128x64-vita-pixlar-i2c-ssd1306-p50542494
+	Prize: 59kr
+-Driver for Oled Display SSD1306
+	Datasheet: https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+-LEDs: (Maybe available at lab)
+	Red LED: https://se.rs-online.com/web/p/leds/2285988/
+	Green LED: https://se.rs-online.com/web/p/leds/2286004/
+-Numeric Keyboard:
+	Website to order: https://www.elfa.se/en/3x4-matrix-keypad-adafruit-3845/p/30139179?queryFromSuggest=true
+	Prize: 61.90kr
+	Documentation: https://www.adafruit.com/product/1824
+- Capacitors:
+- Resistors: 
+
+
