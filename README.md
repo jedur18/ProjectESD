@@ -15,6 +15,9 @@ Distribution of the work:
 
 -ALI:
 
+
+
+
 EQUIPMENT:
 - Murata CMWX1ZZABZLoRa Module:
 	Datasheet:https://wireless.murata.com/datasheet?/RFM/data/type_abz.pdf
@@ -35,7 +38,13 @@ EQUIPMENT:
 	Website to order: https://www.elfa.se/en/3x4-matrix-keypad-adafruit-3845/p/30139179?queryFromSuggest=true
 	Prize: 61.90kr
 	Documentation: https://www.adafruit.com/product/1824
+					https://www.futurlec.com/Keypad3x4.shtml
+					Arduino libraries and documentation: https://playground.arduino.cc/Code/Keypad/
 - Capacitors:
+	6x100nF for decoupling: 
+
 - Resistors: 
+	2x10k for pull Up and pull Down resistors for NRST and BOOT0: https://www.elfa.se/en/thick-film-smd-resistor-0805-10kohm-125mw-rnd-components-rnd-1550805s8f1002t5e/p/30056718?q=10k+resistor+0805&pos=1&origPos=1&origPageSize=10&track=true
+	Prize: 0.4972 (ordering 4)
 
 
