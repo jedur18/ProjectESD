@@ -14,6 +14,11 @@ Distribution of the work:
 		-Software protection--> Encryption. Asymmetric encryption if its possible (need to investigate on it)
 
 -ALI:
+	basic part:
+		- Buzzer: sendig out sound by the PWM signals as the LEDs.
+	more advansed part for us electronic backgrounded students is software development:
+		- We are going to make the keypad unit acting as a Master and the sensor unit as the Slave.
+		- We are even going to make it possible for the system to be able to support more than one sensor and make it possibble for the master to identify which unit is detecting motions.
 
 
 
@@ -55,5 +60,7 @@ EQUIPMENT:
 	Prize: 5.78SEK
 	Datasheet:https://www.elfa.se/Web/Downloads/_t/ds/8266xx_x_eng_tds.pdf?pid=14371639
 
--Power Supply:
+- Power Supply:
+
+- Buzzer: (RND430400016)
 
