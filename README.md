@@ -42,9 +42,17 @@ EQUIPMENT:
 					Arduino libraries and documentation: https://playground.arduino.cc/Code/Keypad/
 - Capacitors:
 	6x100nF for decoupling: 
+			for power supply:
 
 - Resistors: 
 	2x10k for pull Up and pull Down resistors for NRST and BOOT0: https://www.elfa.se/en/thick-film-smd-resistor-0805-10kohm-125mw-rnd-components-rnd-1550805s8f1002t5e/p/30056718?q=10k+resistor+0805&pos=1&origPos=1&origPageSize=10&track=true
 	Prize: 0.4972 (ordering 4)
+	for power supply: 
+	
+-Serial Wire Debug (SWD) to program and debug the MCU: 
+	Website to oder: https://www.elfa.se/en/ampmodu-mod-ii-straight-male-pcb-header-through-hole-54mm-te-connectivity-826629/p/14371639?q=straight+male+pcb+header&pos=3&origPos=97&origPageSize=10&track=true
+	Prize: 5.78SEK
+	Datasheet:https://www.elfa.se/Web/Downloads/_t/ds/8266xx_x_eng_tds.pdf?pid=14371639
 
+-Power Supply:
 
