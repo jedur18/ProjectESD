@@ -59,5 +59,6 @@ General Description: This project is divided in two groups. Group 1 will work wi
 
 - Power Supply:
 
-- Buzzer: (RND430400016)
+- Buzzer: piezo buzzer (KMTG1603-1)
+  - Datasheet: https://docs.rs-online.com/aa51/0900766b81113b92.pdf
 
