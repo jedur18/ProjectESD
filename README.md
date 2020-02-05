@@ -59,6 +59,8 @@ General Description: This project is divided in two groups. Group 1 will work wi
 
 - Power Supply:
 
-- Buzzer: piezo buzzer (KMTG1603-1)
-  - Datasheet: https://docs.rs-online.com/aa51/0900766b81113b92.pdf
-
+- Buzzer: 
+  - piezo buzzer (KMTG1603-1)
+    - Datasheet: https://docs.rs-online.com/aa51/0900766b81113b92.pdf
+  - Transistor: (MMBT2222A)
+    - Datasheet: https://www.elfa.se/Web/Downloads/_p/df/Diotec-MMBT2222A_eng_ger_tds.pdf?pid=30146837
