@@ -9,7 +9,7 @@ General Description: This project is divided in two groups. Group 1 will work wi
   - Basic part:
     - Numeric Keyboard: With this part digital I/O will be faced. I will also need to remove the bouncing of the buttons, deal with PCINTs (Pin change interruptions).
   - Individual Goals to reach 4/5 mark:
-    - Display: I2C communication. Showing the system state, the code introduced by the user and if the code is correct or not.
+    - Display: SPI communication. Showing the system state, the code introduced by the user and if the code is correct or not.
     - Software protection--> Encryption. Asymmetric encryption if its possible (need to investigate on it)
 
 - ALI:
