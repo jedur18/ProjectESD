@@ -125,8 +125,6 @@ F 3 "~" H 3200 4500 50  0001 C CNN
 	1    3200 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 4300 3600 4300
 $Comp
 L Device:C C?
 U 1 1 5E381747
@@ -1059,4 +1057,198 @@ Connection ~ 3250 1800
 Connection ~ 3350 1800
 Wire Wire Line
 	3350 1800 3250 1800
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5E41A768
+P 6550 5200
+F 0 "J?" H 6650 5175 50  0000 L CNN
+F 1 "Conn_Coaxial" H 6650 5084 50  0000 L CNN
+F 2 "" H 6550 5200 50  0001 C CNN
+F 3 " ~" H 6550 5200 50  0001 C CNN
+	1    6550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 5E41E1F5
+P 2950 3650
+F 0 "J?" H 3058 4031 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 3058 3940 50  0000 C CNN
+F 2 "" H 2950 3650 50  0001 C CNN
+F 3 "~" H 2950 3650 50  0001 C CNN
+	1    2950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4300 3450 4300
+Wire Wire Line
+	3450 4300 3450 3850
+Wire Wire Line
+	3450 3850 3150 3850
+Connection ~ 3450 4300
+Wire Wire Line
+	3450 4300 3600 4300
+Wire Wire Line
+	3150 3750 3500 3750
+Wire Wire Line
+	3500 3750 3500 4000
+Wire Wire Line
+	3500 4000 3600 4000
+Wire Wire Line
+	3150 3550 3550 3550
+Wire Wire Line
+	3550 3550 3550 4100
+Wire Wire Line
+	3550 4100 3600 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5E46B9F9
+P 3300 3650
+F 0 "#PWR?" H 3300 3400 50  0001 C CNN
+F 1 "GND" H 3305 3477 50  0000 C CNN
+F 2 "" H 3300 3650 50  0001 C CNN
+F 3 "" H 3300 3650 50  0001 C CNN
+	1    3300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3650 3300 3650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E475932
+P 3250 3450
+F 0 "#PWR?" H 3250 3300 50  0001 C CNN
+F 1 "+3.3V" H 3265 3623 50  0000 C CNN
+F 2 "" H 3250 3450 50  0001 C CNN
+F 3 "" H 3250 3450 50  0001 C CNN
+	1    3250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3450 3250 3450
+$Comp
+L Device:C C?
+U 1 1 5E423C50
+P 5550 5350
+F 0 "C?" H 5665 5396 50  0000 L CNN
+F 1 "100n" H 5665 5305 50  0000 L CNN
+F 2 "" H 5588 5200 50  0001 C CNN
+F 3 "~" H 5550 5350 50  0001 C CNN
+	1    5550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E42DEAC
+P 5850 5200
+F 0 "C?" V 5598 5200 50  0000 C CNN
+F 1 "100pf" V 5689 5200 50  0000 C CNN
+F 2 "" H 5888 5050 50  0001 C CNN
+F 3 "~" H 5850 5200 50  0001 C CNN
+	1    5850 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E42EBC1
+P 6100 5350
+F 0 "C?" H 6215 5396 50  0000 L CNN
+F 1 "100n" H 6215 5305 50  0000 L CNN
+F 2 "" H 6138 5200 50  0001 C CNN
+F 3 "~" H 6100 5350 50  0001 C CNN
+	1    6100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5200 5550 5200
+Wire Wire Line
+	5550 5200 5700 5200
+Connection ~ 5550 5200
+Wire Wire Line
+	6000 5200 6100 5200
+Wire Wire Line
+	6100 5200 6350 5200
+Connection ~ 6100 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5E45F51B
+P 6550 5500
+F 0 "#PWR?" H 6550 5250 50  0001 C CNN
+F 1 "GND" H 6555 5327 50  0000 C CNN
+F 2 "" H 6550 5500 50  0001 C CNN
+F 3 "" H 6550 5500 50  0001 C CNN
+	1    6550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E45FC43
+P 6100 5600
+F 0 "#PWR?" H 6100 5350 50  0001 C CNN
+F 1 "GND" H 6105 5427 50  0000 C CNN
+F 2 "" H 6100 5600 50  0001 C CNN
+F 3 "" H 6100 5600 50  0001 C CNN
+	1    6100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E460440
+P 5550 5600
+F 0 "#PWR?" H 5550 5350 50  0001 C CNN
+F 1 "GND" H 5555 5427 50  0000 C CNN
+F 2 "" H 5550 5600 50  0001 C CNN
+F 3 "" H 5550 5600 50  0001 C CNN
+	1    5550 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5500 5550 5600
+Wire Wire Line
+	6100 5500 6100 5600
+Wire Wire Line
+	6550 5400 6550 5500
+Text Notes 5550 6050 0    50   ~ 0
+CHECK VALUES OF 100n capacitors.\nIn schematic DNP was set and do not kwow the value\n
+Text Notes 1700 3750 0    50   ~ 0
+CHECK if connections are right\n
+$Comp
+L Connector:Conn_01x07_Male J?
+U 1 1 5E4ACAE1
+P 8300 3900
+F 0 "J?" H 8408 4381 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 8408 4290 50  0000 C CNN
+F 2 "" H 8300 3900 50  0001 C CNN
+F 3 "~" H 8300 3900 50  0001 C CNN
+	1    8300 3900
+	-1   0    0    1   
+$EndComp
+Text GLabel 7950 4200 0    50   Input ~ 0
+GND
+Text GLabel 7950 4100 0    50   Input ~ 0
+VCC
+Text GLabel 7900 4000 0    50   Input ~ 0
+D0
+Text GLabel 7900 3900 0    50   Input ~ 0
+D1
+Text GLabel 7950 3800 0    50   Input ~ 0
+RES
+Text GLabel 7900 3700 0    50   Input ~ 0
+DC
+Text GLabel 7900 3600 0    50   Input ~ 0
+CS
+Wire Wire Line
+	7900 3600 8100 3600
+Wire Wire Line
+	7900 3700 8100 3700
+Wire Wire Line
+	7950 3800 8100 3800
+Wire Wire Line
+	7900 3900 8100 3900
+Wire Wire Line
+	7900 4000 8100 4000
+Wire Wire Line
+	7950 4100 8100 4100
+Wire Wire Line
+	7950 4200 8100 4200
 $EndSCHEMATC
