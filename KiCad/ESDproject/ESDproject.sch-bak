@@ -1087,7 +1087,7 @@ Wire Wire Line
 	3450 3850 3150 3850
 Connection ~ 3450 4300
 Wire Wire Line
-	3450 4300 3600 4300
+	3450 4300 3500 4300
 Wire Wire Line
 	3150 3750 3500 3750
 Wire Wire Line
@@ -1298,4 +1298,19 @@ Wire Wire Line
 	7600 4200 8100 4200
 Text GLabel 5400 3700 2    50   Input ~ 0
 D0
+Text GLabel 3500 4350 3    50   Input ~ 0
+RES
+Wire Wire Line
+	3500 4300 3500 4350
+Connection ~ 3500 4300
+Wire Wire Line
+	3500 4300 3600 4300
+Text GLabel 5400 3900 2    50   Input ~ 0
+D1
+Text GLabel 5400 3400 2    50   Input ~ 0
+DC
+Text GLabel 5400 3500 2    50   Input ~ 0
+CS
+Text Notes 5550 3500 0    50   ~ 0
+CHECK DC AND CS PINS IN MCU\n
 $EndSCHEMATC
