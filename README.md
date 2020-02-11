@@ -65,8 +65,12 @@ General Description: This project is divided in two groups. Group 1 will work wi
   - Transistor: (MMBT2222A)
     - Datasheet: https://www.elfa.se/Web/Downloads/_p/df/Diotec-MMBT2222A_eng_ger_tds.pdf?pid=30146837
     
- - Buttons:
-   - RND210-00204: https://www.elfa.se/en/pcb-tactile-switch-210-1no-57n-6mm-rnd-components-rnd-210-00204/p/30090660?q=Tactile+Switch&pos=5&origPos=16&origPageSize=10&track=true
+    
+ - num-pad:
+   - Rectifier Diodes: https://www.elfa.se/en/rectifier-diode-1206-taiwan-semiconductor-ts4148-rxg/p/30139387?q=rectifier+diodes&pos=1&origPos=265&origPageSize=10&track=true
+     - Datasheet: https://www.elfa.se/Web/Downloads/_t/ds/TS4148_RXG_eng_tds.pdf?pid=30139387
+   - Buttons:
+     - RND210-00204: https://www.elfa.se/en/pcb-tactile-switch-210-1no-57n-6mm-rnd-components-rnd-210-00204/p/30090660?q=Tactile+Switch&pos=5&origPos=16&origPageSize=10&track=true
      - Datasheet: https://www.elfa.se/Web/Downloads/_t/ds/RND%20210-00204_eng_tds.pdf?pid=30090660
    
  - Antenn con: https://www.elfa.se/en/micro-coaxial-straight-socket-micro-coaxial-connector-50ohm-6ghz-molex-73412-0110/p/30076410?queryFromSuggest=true
