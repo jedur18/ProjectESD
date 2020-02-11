@@ -75,3 +75,6 @@ General Description: This project is divided in two groups. Group 1 will work wi
  - Micro-USB B connector: https://www.elfa.se/en/socket-micro-usb-smd-wuerth-elektronik-629105150521/p/30009163?q=micro+usb+smd&pos=4&origPos=4&origPageSize=10&track=true
    - Datasheet: https://www.elfa.se/Web/Downloads/40/32/629105150521.pdf?pid=30009163
    
+ - Voltage Regulator:
+   - LM1117ADJ: https://www.elfa.se/en/ldo-voltage-regulator-800ma-sot-223-texas-instruments-lm1117impx-adj-nopb/p/30019194?queryFromSuggest=true
+   
