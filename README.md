@@ -64,3 +64,9 @@ General Description: This project is divided in two groups. Group 1 will work wi
     - Datasheet: https://docs.rs-online.com/aa51/0900766b81113b92.pdf
   - Transistor: (MMBT2222A)
     - Datasheet: https://www.elfa.se/Web/Downloads/_p/df/Diotec-MMBT2222A_eng_ger_tds.pdf?pid=30146837
+    
+ - Buttons:
+   - RND210-00204: https://www.elfa.se/en/pcb-tactile-switch-210-1no-57n-6mm-rnd-components-rnd-210-00204/p/30090660?q=Tactile+Switch&pos=5&origPos=16&origPageSize=10&track=true
+     - Datasheet: https://www.elfa.se/Web/Downloads/_t/ds/RND%20210-00204_eng_tds.pdf?pid=30090660
+   
+   
