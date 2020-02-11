@@ -72,5 +72,6 @@ General Description: This project is divided in two groups. Group 1 will work wi
  - Antenn con: https://www.elfa.se/en/micro-coaxial-straight-socket-micro-coaxial-connector-50ohm-6ghz-molex-73412-0110/p/30076410?queryFromSuggest=true
    - datasheet: https://www.elfa.se/Web/Downloads/_t/ds/73412-0110_eng_tds.pdf?pid=30076410
    
-   
+ - Micro-USB B connector: https://www.elfa.se/en/socket-micro-usb-smd-wuerth-elektronik-629105150521/p/30009163?q=micro+usb+smd&pos=4&origPos=4&origPageSize=10&track=true
+   - Datasheet: https://www.elfa.se/Web/Downloads/40/32/629105150521.pdf?pid=30009163
    
