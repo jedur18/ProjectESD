@@ -1087,7 +1087,7 @@ Wire Wire Line
 	3450 3850 3150 3850
 Connection ~ 3450 4300
 Wire Wire Line
-	3450 4300 3600 4300
+	3450 4300 3500 4300
 Wire Wire Line
 	3150 3750 3500 3750
 Wire Wire Line
@@ -1223,10 +1223,6 @@ F 3 "~" H 8300 3900 50  0001 C CNN
 	1    8300 3900
 	-1   0    0    1   
 $EndComp
-Text GLabel 7950 4200 0    50   Input ~ 0
-GND
-Text GLabel 7950 4100 0    50   Input ~ 0
-VCC
 Text GLabel 7900 4000 0    50   Input ~ 0
 D0
 Text GLabel 7900 3900 0    50   Input ~ 0
@@ -1247,8 +1243,74 @@ Wire Wire Line
 	7900 3900 8100 3900
 Wire Wire Line
 	7900 4000 8100 4000
+$Comp
+L Device:Buzzer BZ?
+U 1 1 5E538853
+P 6450 3100
+F 0 "BZ?" H 6602 3129 50  0000 L CNN
+F 1 "Buzzer" H 6602 3038 50  0000 L CNN
+F 2 "" V 6425 3200 50  0001 C CNN
+F 3 "~" V 6425 3200 50  0001 C CNN
+	1    6450 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 3100 2    50   Input ~ 0
+COL1
+Text GLabel 5400 3200 2    50   Input ~ 0
+COL2
+Text GLabel 5400 3300 2    50   Input ~ 0
+COL3
+Text GLabel 3600 3600 0    50   Input ~ 0
+ROW1
+Text GLabel 3600 3700 0    50   Input ~ 0
+ROW2
+Text GLabel 3600 3800 0    50   Input ~ 0
+ROW3
+Text GLabel 3600 3900 0    50   Input ~ 0
+ROW4
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E552E7A
+P 7600 4100
+F 0 "#PWR?" H 7600 3950 50  0001 C CNN
+F 1 "+3.3V" H 7615 4273 50  0000 C CNN
+F 2 "" H 7600 4100 50  0001 C CNN
+F 3 "" H 7600 4100 50  0001 C CNN
+	1    7600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E553B4E
+P 7600 4250
+F 0 "#PWR?" H 7600 4000 50  0001 C CNN
+F 1 "GND" H 7605 4077 50  0000 C CNN
+F 2 "" H 7600 4250 50  0001 C CNN
+F 3 "" H 7600 4250 50  0001 C CNN
+	1    7600 4250
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7950 4100 8100 4100
+	7600 4100 8100 4100
 Wire Wire Line
-	7950 4200 8100 4200
+	7600 4200 7600 4250
+Wire Wire Line
+	7600 4200 8100 4200
+Text GLabel 5400 3700 2    50   Input ~ 0
+D0
+Text GLabel 3500 4350 3    50   Input ~ 0
+RES
+Wire Wire Line
+	3500 4300 3500 4350
+Connection ~ 3500 4300
+Wire Wire Line
+	3500 4300 3600 4300
+Text GLabel 5400 3900 2    50   Input ~ 0
+D1
+Text GLabel 5400 3400 2    50   Input ~ 0
+DC
+Text GLabel 5400 3500 2    50   Input ~ 0
+CS
+Text Notes 5550 3500 0    50   ~ 0
+CHECK DC AND CS PINS IN MCU\n
 $EndSCHEMATC
