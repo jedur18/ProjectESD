@@ -82,3 +82,9 @@ General Description: This project is divided in two groups. Group 1 will work wi
  - Voltage Regulator:
    - LM1117ADJ: https://www.elfa.se/en/ldo-voltage-regulator-800ma-sot-223-texas-instruments-lm1117impx-adj-nopb/p/30019194?queryFromSuggest=true
    
+ - LEDs:
+   - Red:https://www.elfa.se/en/smd-led-640nm-1206-600mcd-30ma-kingbright-kptd-3216surc/p/17531032?q=*&pos=3&origPos=3&origPageSize=10&track=true
+     - Datasheet: https://www.elfa.se/Web/Downloads/6_/en/csKingbright_SMD-LED-rot-KTPD3216_EN.pdf?pid=17531032
+   - Green: https://www.elfa.se/en/smd-led-468nm-1206-700mcd-20ma-kingbright-kptd-3216qbc/p/17510753?q=*&pos=1&origPos=1&origPageSize=10&track=true
+     - Datasheet: https://www.elfa.se/Web/Downloads/_t/ds/kptd-3216qbc-d_eng_tds.pdf?pid=17510753
+   
