@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source H:\Documents\E7020E\Project-ESD\Project-ESD\Project-ESD.sch)
-    (date "2020-02-12 16:37:47")
+    (source H:\Documents\E7020E\Project-ESD-Final-V\Project-ESD\Project-ESD.sch)
+    (date "2020-02-13 17:40:20")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -113,7 +113,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5E297AB2))
     (comp (ref R2)
-      (value 6.8k)
+      (value 5.6k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
       (libsource (lib Project-ESD-rescue) (part R-Device-Lab1-rescue-Lab1-rescue) (description ""))
@@ -621,7 +621,7 @@
         (pin (num 6) (name Shield) (type passive)))))
   (libraries
     (library (logical Project-ESD-rescue)
-      (uri H:\Documents\E7020E\Project-ESD\Project-ESD/Project-ESD-rescue.lib)))
+      (uri H:\Documents\E7020E\Project-ESD-Final-V\Project-ESD/Project-ESD-rescue.lib)))
   (nets
     (net (code 1) (name ROW2)
       (node (ref SW3) (pin 1))
