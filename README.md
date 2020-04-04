@@ -24,7 +24,7 @@ General Description: This project is divided in two groups. Group 1 will work wi
 ## EQUIPMENT:
 - Murata CMWX1ZZABZLoRa Module:
 	Datasheet:https://wireless.murata.com/datasheet?/RFM/data/type_abz.pdf
-  - STM32F0x2:
+  - STM32L0x2:
 		Documentation (Full information about micro): https://www.ece.uvic.ca/~ece355/lab/supplement/stm32f0RefManual.pdf
 		With rust: https://docs.rs/stm32f0x2/0.1.0/stm32f0x2/
 
